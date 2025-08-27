@@ -3,12 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7CF1BD8-7025-4181-8FDE-4DC2ACB38C1A}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Dream Machines\Desktop\.editorconfig = C:\Users\Dream Machines\Desktop\.editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F0E98D3-8ADA-4055-AC7F-72C87F1DE443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedules.Users.Core", "src\Schedules.Users.Core\Schedules.Users.Core.csproj", "{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedules.Users.Api", "src\Schedules.Users.Api\Schedules.Users.Api.csproj", "{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C091B358-4108-4076-A935-00DD64E41171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedules.Users.IntegrationTests", "tests\Schedules.Users.IntegrationTests\Schedules.Users.IntegrationTests.csproj", "{3D4483EF-950B-44AF-8E74-177FF8BA3ABF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4483EF-950B-44AF-8E74-177FF8BA3ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4483EF-950B-44AF-8E74-177FF8BA3ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4483EF-950B-44AF-8E74-177FF8BA3ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4483EF-950B-44AF-8E74-177FF8BA3ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B69F9D35-DD4E-47A5-AEAE-3F1B2ECB0374} = {2F0E98D3-8ADA-4055-AC7F-72C87F1DE443}
+		{F3EC597E-8AB5-4C4A-B877-ADB3E7C45D66} = {2F0E98D3-8ADA-4055-AC7F-72C87F1DE443}
+		{3D4483EF-950B-44AF-8E74-177FF8BA3ABF} = {C091B358-4108-4076-A935-00DD64E41171}
 	EndGlobalSection
 EndGlobal
