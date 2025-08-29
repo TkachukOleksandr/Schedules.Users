@@ -1,2 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Schedules.Nuget.Abstractions" />
+    <PackageReference Include="Schedules.Nuget.Enums" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dal\" />
+  </ItemGroup>
 </Project>

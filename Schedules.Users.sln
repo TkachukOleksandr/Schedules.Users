@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7CF1BD8-7025-4181-8FDE-4DC2ACB38C1A}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\Dream Machines\Desktop\.editorconfig = C:\Users\Dream Machines\Desktop\.editorconfig
+		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 		Directory.Packages.props = Directory.Packages.props
 	EndProjectSection
