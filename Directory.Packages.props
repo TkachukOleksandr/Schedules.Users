@@ -19,6 +19,7 @@
   <!-- Schedule nugets-->
   <ItemGroup>
     <PackageVersion Include="Schedules.Nuget.Abstractions" Version="1.0.2" />
-	<PackageVersion Include="Schedules.Nuget.Enums" Version="1.0.0" />
+    <PackageVersion Include="Schedules.Nuget.Enums" Version="1.0.0" />
+	<PackageVersion Include="Schedules.Nuget.Database" Version="1.0.0" />
   </ItemGroup>
 </Project>
