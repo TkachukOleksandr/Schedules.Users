@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
     <PackageReference Include="Schedules.Nuget.Abstractions" />
+    <PackageReference Include="Schedules.Nuget.Database" />
     <PackageReference Include="Schedules.Nuget.Enums" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dal\" />
   </ItemGroup>
 </Project>
